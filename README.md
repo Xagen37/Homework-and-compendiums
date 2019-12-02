@@ -14,7 +14,7 @@ After this one I started to dream about returning to C++<br>
 [Scanner](java/Homework5/Scanner.java)
 
 ## Homework №3, №5
-The main problem with the 5th homework was not the "Scanner" part, but with the "Transpose" one.<br>
+The main problem with the 5th homework was not the "Scanner" part, but the "Transpose" one.<br>
 [ReverseEven](java/Homework3+5/ReverseEven.java)<br>
 [ReverseTranspose](java/Homework3+5/ReverseTranspose.java)
 
