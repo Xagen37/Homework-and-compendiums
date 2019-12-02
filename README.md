@@ -11,3 +11,17 @@ Why not?</i><br>
 ## Homework №5
 After this one I started to dream about returning to C++<br>
 [Scanner](java/Homework5/Scanner.java)
+
+## Homework №3, №5
+The main problem with the 5th homework was not the "Scanner" part, but with the "Transpose" one.<br>
+[ReverseEven](java/Homework3+5/ReverseEven.java)<br>
+[ReverseTranspose](java/Homework3+5/ReverseTranspose.java)
+
+## Homework №4, №6
+<i>Kalinka intensifies</i><br>
+[WordStatWords](java/Homework4+6/WordStatWords.java)
+[WordStatLineIndex](java/Homework4+6/WordStatLineIndex.java)
+
+## Homework №7
+That was pretty and easy one but the next...
+[markup](Programming-homework/java/Homework7/markup)
