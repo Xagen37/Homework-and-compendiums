@@ -30,3 +30,10 @@ That was pretty and easy one but the next...<br>
 ## Homework №9
 Never code in a drunk state or you will curse yourself while debugging in the future.<br>
 [MarkdownToHtml](java/Homework9/Md2Html.java)
+
+# Labs
+I decided to add my labs here too.<br>
+They must have been already closed, so I hope it won't be considered cheating.<br>
+[Algorithms and data structures](labs/AlgoLabs)<br>
+[Discret math](labs/DMLabs)<br>
+[Linear algebra](labs/LinAlLabs)
