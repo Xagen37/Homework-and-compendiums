@@ -19,7 +19,7 @@ The main problem with the 5th homework was not the "Scanner" part, but the "Tran
 [ReverseTranspose](java/Homework3+5/ReverseTranspose.java)
 
 ## Homework №4, №6
-<i>Kalinka intensifies</i><br>
+<strong><i>Kalinka intensifies</i></strong><br>
 [WordStatWords](java/Homework4+6/WordStatWords.java)<br>
 [WordStatLineIndex](java/Homework4+6/WordStatLineIndex.java)
 
