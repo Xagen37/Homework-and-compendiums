@@ -19,9 +19,9 @@ The main problem with the 5th homework was not the "Scanner" part, but with the 
 
 ## Homework №4, №6
 <i>Kalinka intensifies</i><br>
-[WordStatWords](java/Homework4+6/WordStatWords.java)
+[WordStatWords](java/Homework4+6/WordStatWords.java)<br>
 [WordStatLineIndex](java/Homework4+6/WordStatLineIndex.java)
 
 ## Homework №7
-That was pretty and easy one but the next...
-[markup](Programming-homework/java/Homework7/markup)
+That was pretty and easy one but the next...<br>
+[markup](java/Homework7/markup)
