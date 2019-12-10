@@ -2,7 +2,8 @@
 
 Just another repository.<br>
 It contains my homework.<br>
-Hope I won't give it up as I did many times ago.
+Hope I won't give it up as I did many times ago.<br>
+P.S.: 8th homework is not missed. 
 
 ## Homework №2
 <i>I know <strong>split</strong> here is <s>a piece of shit</s> not good, but it wasn't banned then, so...<br>
