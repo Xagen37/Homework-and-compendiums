@@ -31,6 +31,11 @@ That was pretty and easy one but the next...<br>
 Never code in a drunk state or you will curse yourself while debugging in the future.<br>
 [MarkdownToHtml](java/Homework9/Md2Html.java)
 
+## Homework №10
+What does a common person do when he bored? Play tic-tac-toe with someone.<br>
+What does a programmer do when he bored? Write a programme that plays tic-tac-toe with him.<br>
+[MNKGame](java/Homework10/MNKGame)
+
 # Labs
 I decided to add my labs here too.<br>
 They must have been already closed, so I hope it won't be considered cheating.<br>
