@@ -37,6 +37,10 @@ What does a common person do when he bored? Play tic-tac-toe with someone.<br>
 What does a programmer do when he bored? Write a programme that plays tic-tac-toe with him.<br>
 [MNKGame](java/Homework10/MNKGame)
 
+## Homework №11
+A fundament of the next two homeworks.<br> 
+It isn't checked at the moment of publishing, so be careful when copy.<br>
+[Expression](java/Homework11/expression)
 # Labs
 I decided to add my labs here too.<br>
 They must have been already closed, so I hope it won't be considered cheating.<br>
