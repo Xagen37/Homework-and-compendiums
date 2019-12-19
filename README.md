@@ -42,6 +42,12 @@ What does a programmer do when he bored? Write a programme that plays tic-tac-to
 A fundament of the next two homeworks.<br> 
 It isn't checked at the moment of publishing, so be careful when copy.<br>
 [Expression](java/Homework11/expression)
+
+## Homework №12
+Parser, my parser.<br>
+<i>(Crutches, my crutches)</i><br>
+[Parser](java/Homework12/expression)
+
 # Labs
 I decided to add my labs here too.<br>
 They must have been already closed, so I hope it won't be considered cheating.<br>
