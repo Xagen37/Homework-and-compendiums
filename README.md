@@ -40,7 +40,6 @@ What does a programmer do when he bored? Write a programme that plays tic-tac-to
 
 ## Homework №11
 A fundament of the next two homeworks.<br> 
-It isn't checked at the moment of publishing, so be careful when copy.<br>
 [Expression](java/Homework11/expression)
 
 ## Homework №12
