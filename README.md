@@ -56,4 +56,4 @@ They must have been already closed, so I hope it won't be considered cheating.<b
 
 # Compendiums
 I don't know how is it said in English, but here it is.<br>
-[Architecture](compendiums/Computer_architecture.pdf)
+[Architecture](compendiums/Computer_architecture.pdf) to be continued.
