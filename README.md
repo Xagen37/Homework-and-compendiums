@@ -53,3 +53,7 @@ They must have been already closed, so I hope it won't be considered cheating.<b
 [Algorithms and data structures](labs/AlgoLabs)<br>
 [Discret math](labs/DMLabs)<br>
 [Linear algebra](labs/LinAlLabs)
+
+# Compendiums
+I don't know how is it said in English, but here it is.<br>
+[Architecture](compendiums/Computer architecture)
