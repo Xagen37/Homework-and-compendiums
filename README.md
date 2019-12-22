@@ -56,4 +56,5 @@ They must have been already closed, so I hope it won't be considered cheating.<b
 
 # Compendiums
 I don't know how is it said in English, but here it is.<br>
-[Architecture](compendiums/Computer_architecture.pdf) to be continued.
+[Architecture](compendiums/Computer_architecture.pdf) to be continued.<br>
+[The same, but with pearlies](https://docs.google.com/document/d/1lAgR7urtgu8xBsn-nue1H9uq4h6_gtPxQ5rW5eTOk28/edit?usp=sharing)
