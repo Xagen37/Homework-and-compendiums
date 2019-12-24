@@ -1,3 +1,16 @@
+# Labs
+I decided to add my labs here too.<br>
+They must have been already closed, so I hope it won't be considered cheating.<br>
+[Algorithms and data structures](labs/AlgoLabs)<br>
+[Discret math](labs/DMLabs)<br>
+[Linear algebra](labs/LinAlLabs)
+
+# Compendiums
+I don't know how is it said in English, but here it is.<br>
+[Computer architecture](compendiums/Computer_architecture.pdf).<br>
+[The same, but with pearlies](https://docs.google.com/document/d/1lAgR7urtgu8xBsn-nue1H9uq4h6_gtPxQ5rW5eTOk28/edit?usp=sharing)
+
+
 # Programming-homework
 
 Just another repository.<br>
@@ -46,15 +59,3 @@ A fundament of the next two homeworks.<br>
 Parser, my parser.<br>
 <i>(Crutches, my crutches)</i><br>
 [Parser](java/Homework12/expression)
-
-# Labs
-I decided to add my labs here too.<br>
-They must have been already closed, so I hope it won't be considered cheating.<br>
-[Algorithms and data structures](labs/AlgoLabs)<br>
-[Discret math](labs/DMLabs)<br>
-[Linear algebra](labs/LinAlLabs)
-
-# Compendiums
-I don't know how is it said in English, but here it is.<br>
-[Computer architecture](compendiums/Computer_architecture.pdf).<br>
-[The same, but with pearlies](https://docs.google.com/document/d/1lAgR7urtgu8xBsn-nue1H9uq4h6_gtPxQ5rW5eTOk28/edit?usp=sharing)
