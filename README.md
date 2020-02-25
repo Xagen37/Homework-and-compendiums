@@ -17,5 +17,5 @@ Just another repository.<br>
 It contains my homework.<br>
 Hope I won't give it up as I did many times ago.<br>
 P.S.: 8th homework is not missed. It just doesn't exist.<br>
-<i>Advertisement block: also visit my friends' repo: [M3135](https://github.com/y19m3135/Zhava)</i>
+<i>Advertisement block: also visit my friends' repo: [M3135](https://github.com/y19m3135/Zhava)</i><br>
 [Just kill me already, ok?](java)
