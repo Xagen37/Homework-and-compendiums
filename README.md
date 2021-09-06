@@ -9,7 +9,8 @@ I decided to add my labs here too.<br>
 They must have been already closed, so I hope it won't be considered cheating.<br>
 [Algorithms and data structures](labs/AlgoLabs)<br>
 [Discret math](labs/DMLabs)<br>
-[Linear algebra](labs/LinAlLabs)
+[Linear algebra](labs/LinAlLabs)<br>
+[Math logic](https://github.com/Xagen37/Projects/tree/master/proof_rebuilder)
 
 
 ## Conspects
