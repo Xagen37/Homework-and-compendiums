@@ -1,8 +1,11 @@
 # Programming-homework
 Just another repository.<br>
 It contains my homework and a bit more.<br>
-[Programming](programming_homework)
-
+[Data analysis](data_analysis)<br>
+[Functional programming](FP)<br>
+[MPP](MPP)<br>
+[Parsers (TBD)](translation_methods)<br>
+[Programming](programming_homework)<br>
 
 ## Labs
 I decided to add my labs here too.<br>
