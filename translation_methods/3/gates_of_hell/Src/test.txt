@@ -1,0 +1,1 @@
+a, b, c = float(input()), 42, "abacaba"

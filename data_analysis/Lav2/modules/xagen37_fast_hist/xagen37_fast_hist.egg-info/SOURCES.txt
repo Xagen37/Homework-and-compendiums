@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+xagen37_fast_hist/__init__.py
+xagen37_fast_hist/fast_hist.py
+xagen37_fast_hist.egg-info/PKG-INFO
+xagen37_fast_hist.egg-info/SOURCES.txt
+xagen37_fast_hist.egg-info/dependency_links.txt
+xagen37_fast_hist.egg-info/requires.txt
+xagen37_fast_hist.egg-info/top_level.txt

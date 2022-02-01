@@ -1,0 +1,47 @@
+Sofrygin Alexander # <-- fill it in
+# Each line is: <state1> -> <state2>
+# Each <state> is: [Px,Qy,a,b]
+
+# transition from the initial state where P is making a step
+[P1,Q1,0,0] -> [P2,Q1,1,0]
+[P1,Q1,0,0] -> [P1,Q2,0,1]
+
+[P2,Q1,1,0] -> [P3,Q1,1,0]
+[P2,Q1,1,0] -> [P2,Q2,1,1]
+[P1,Q2,0,1] -> [P2,Q2,1,1]
+[P1,Q2,0,1] -> [P1,Q4,0,1]
+
+[P3,Q1,1,0] -> [P4,Q1,1,0]
+[P3,Q1,1,0] -> [P3,Q2,1,1]
+[P2,Q2,1,1] -> [P2,Q2,1,1]
+[P2,Q2,1,1] -> [P2,Q3,1,1]
+[P1,Q4,0,1] -> [P2,Q4,1,1]
+
+[P4,Q1,1,0] -> [P1,Q1,0,0]
+[P4,Q1,1,0] -> [P4,Q2,1,1]
+[P3,Q2,1,1] -> [P4,Q2,1,1]
+[P3,Q2,1,1] -> [P3,Q3,1,1]
+[P2,Q3,1,1] -> [P2,Q3,1,1]
+[P2,Q3,1,1] -> [P2,Q1,1,0]
+[P2,Q4,1,1] -> [P2,Q4,1,1]
+
+[P4,Q2,1,1] -> [P1,Q2,0,1]
+[P4,Q2,1,1] -> [P4,Q3,1,1]
+[P3,Q3,1,1] -> [P4,Q3,1,1]
+[P3,Q3,1,1] -> [P3,Q1,1,0]
+
+[P4,Q3,1,1] -> [P1,Q3,0,1]
+[P4,Q3,1,1] -> [P4,Q1,1,0]
+
+[P1,Q3,0,1] -> [P2,Q3,1,1]
+[P1,Q3,0,1] -> [P1,Q1,0,0]
+
+# 1) Only 14 out of 64 states are reachable.
+# 2) There is no such state. Why? The reason is that thread Q can reach state Q4 only when a == 0 and b == 1.
+#    Meanwhile, thread P can reach state P3 only when a == 1 and b == 0. So, here variables a and b serve as locks, i.e. mutexes.
+#    Thread P cannot get into critical section and set a to 0 later, if variable b is 1 (which means that thread Q is at "if" statement).
+#    Vice versa, thread Q can leave the loop only when variable a is 0 (which means that thread P is outside critical section and does not try to enter it).
+# 3) Yes, it is true. 
+#    I do not know the exact reason, but I can assume that state Q4 is reachable from any state, because there is no deadlocks if both threads are running.
+#    Critical section in thread P is also executed in finite time (again, if thread Q is active, too) and there are no infinite loops in thread Q (except the main one).
+#    It means that in any state of the system (except Q4) there will be a moment, when variable a == 0, so that thread Q can get to state Q4 from state Q2.
