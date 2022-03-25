@@ -4,7 +4,7 @@ It contains my homework and a bit more.<br>
 [Data analysis](data_analysis)<br>
 [Functional programming](FP)<br>
 [MPP](MPP)<br>
-[Parsers (TBD)](translation_methods)<br>
+[Parsers](translation_methods)<br>
 [Programming](programming_homework)<br>
 
 ## Labs
