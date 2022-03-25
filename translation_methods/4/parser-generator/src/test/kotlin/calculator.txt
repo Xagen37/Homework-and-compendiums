@@ -1,0 +1,43 @@
+grammar Calculator;
+
+start return [Int result] ::= expr {<$result = $expr!!.value>};
+
+expr return [Int value] ::= term exprP(term.value!!) {<$value = $exprP!!.res>};
+
+exprP [Int i] return [Int res] ::= lastOrderOp term
+                                   {<$res = if ($lastOrderOp!!.ADD != null) $i + $term!!.value!! else $i - $term!!.value!!>}
+                                   exprP($res!!) {<$res = $exprP!!.res>}
+                                   | !EPS! {<$res = $i>};
+
+term return [Int value] ::= fact termP(fact.value!!) {<$value = $termP!!.res>};
+
+termP [Int i] return [Int res] ::= firstOrderOp fact
+                                   {<$res = if ($firstOrderOp!!.MUL != null) $i * $fact!!.value!! else $i / $fact!!.value!!>}
+                                   termP($res!!) {<$res = $termP!!.res>}
+                                   | !EPS! {<$res = $i>};
+
+fact return [Int value] ::= SUB fact_expr {<$value = - $fact_expr!!.value!!>}
+                            | fact_expr {<$value = $fact_expr!!.value>};
+
+fact_expr return [Int value] ::= LBR expr RBR {<$value = $expr!!.value>}
+                                 | NUM {<$value = $NUM!!.text.toInt()>}
+                                 | binom {<$value = $binom!!.res>};
+
+binom return [Int res] ::= LSQ expr COMMA expr RSQ {<val __nfac = (1..$expr!!.value!!).reduce(Int::times)
+                                                    val __kfac = (1..$expr1!!.value!!).reduce(Int::times)
+                                                    val __nmkfac = (1..($expr!!.value!! - $expr1!!.value!!)).reduce(Int::times)
+                                                    $res = __nfac / (__kfac * __nmkfac)>};
+
+lastOrderOp  ::= ADD | SUB;
+firstOrderOp ::= MUL | DIV;
+
+ADD ::= '+';
+SUB ::= '-';
+MUL ::= '*';
+DIV ::= '/';
+LBR ::= '(';
+RBR ::= ')';
+LSQ ::= '[';
+RSQ ::= ']';
+COMMA ::= ',';
+NUM ::= "[0-9]+";
