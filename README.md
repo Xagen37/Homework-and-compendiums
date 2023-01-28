@@ -3,10 +3,12 @@ Just another repository.<br>
 It contains my homework and a bit more.<br>
 
 [Algorithms and data structures](labs/AlgoLabs)<br>
+[Bioinformatics](bioinformatics)<br>
 [Data analysis](data_analysis)<br>
 [Discret math](labs/DMLabs)<br>
 [Functional programming](FP)<br>
 [Linear algebra](labs/LinAlLabs)<br>
+[Machine learning CF](ML)<br>
 [Math logic](https://github.com/Xagen37/Projects/tree/master/proof_rebuilder)
 [MPP](MPP)<br>
 [Parsers](translation_methods)<br>
