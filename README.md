@@ -4,6 +4,7 @@ It contains my homework and a bit more.<br>
 
 [Algorithms and data structures](labs/AlgoLabs)<br>
 [Bioinformatics](bioinformatics)<br>
+[Coding theory](coding_theory)<br>
 [Data analysis](data_analysis)<br>
 [Discret math](labs/DMLabs)<br>
 [Functional programming](FP)<br>
